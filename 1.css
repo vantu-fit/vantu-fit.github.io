@@ -1,0 +1,100 @@
+*{margin:0; padding:0;}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: url(huy.png);
+    position: relative;
+}
+.select{
+    width: 530px;
+    height: 350px;
+    background: url(select6.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%;
+}
+
+.container > ul {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container > ul>li {
+    height: 100%;
+    width: 30%;
+    transition: 0.4s;
+  }
+  
+.rand {
+    width: 90px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+    background-color: #5CD9CDFA;
+    border-radius: 27%;
+  }
+  .sec {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    border: 2px gray solid;
+    top:50%;
+    left: 50%;
+}
+
+.sec.bau {
+    transform: translate(-50%);
+  }
+  .sec.cua {
+    transform: translatex(-50%) translateY(180px);
+  }
+  .sec.tom {
+    transform: translatex(55%) translateY(180px);
+  }
+  .sec.ca {
+    transform: translatex(-155%) translateY(180px);
+  }
+  .sec.nai {
+    transform: translate(-154%);
+  }
+   .sec.ga {
+    transform: translatex(55%);
+}
+.add1{
+    background: url(nai.png) fixed;
+    background-size: 90px 90px;
+}
+.add2{
+    background: url(bau.png) fixed;
+    background-size: 90px 90px;
+}
+.add3{
+    background: url(cua.png) fixed;
+    background-size: 90px 90px;
+}
+.add4{
+    background: url(tom.png) fixed;
+    background-size: 90px 90px;
+}
+.add5{
+    background: url(ca.png) fixed;
+    background-size: 90px 90px;
+}
+.add6{
+    background: url(ga.png) fixed;
+    background-size: 90px 90px;
+}
